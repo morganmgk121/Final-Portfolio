@@ -1,0 +1,80 @@
+/*
+============================================================================
+default color scheme (EVERY COLOR style goes here. If there's no link from
+a template to any of the color schemes, page should be just "naked" and
+fully functional
+============================================================================
+*/
+
+body {
+	background: url("../images/default/body-bg.png") repeat-y 50% 50%;
+	color: #767575;
+}
+
+body.textured {
+	background: url("../images/default/body-bg-textured.jpg") repeat-y 50% 50%;
+}
+
+.textured .bottom-wgt-area {
+	background: url("../images/default/texture.jpg");
+}
+
+.color {
+	color: #ce534b;
+}
+
+a,a:visited {
+	color: #ce534b;
+}
+
+a:focus,a:active,a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+#navigation li a:hover, #navigation li.current_page_item a, #navigation li.current_page_parent a, #navigation li.current-menu-ancestor > a   {
+	color: #ce534b;
+}
+
+.portfolio-nav li a:hover, .portfolio-nav li a.selected {
+	color: #ce534b;
+	border-color: #333;
+} 
+
+.widget a:hover,.widget a:focus,.widget a:active {
+	color: #ce534b;
+}
+
+.widget .hireme, .widget .hireme:visited {
+	color: #ce534b;
+}
+
+.widget .hireme:hover {
+	color: #333;
+}
+
+.entry h1 a:hover {
+	color: #ce534b;
+}
+
+.widget_calendar a, .widget_calendar a:visited {
+	color: #ce534b;
+}
+
+.sld-nav li.activeSlide a {
+	border-color: #ce534b;
+}
+
+.post-form input[type=submit] { 
+	color: #ce534b;
+}
+
+.btn-reply {
+	color: #ce534b;
+}
+
+#footer {
+	background: #414141;
+	color: #b1b1b1;
+	border-bottom: 5px solid #ce534b;
+}

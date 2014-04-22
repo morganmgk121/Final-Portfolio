@@ -1,0 +1,73 @@
+
+body {
+	background: url("../images/default/body-bg.png") repeat-y 50% 50%;
+	color: #767575;
+}
+
+body.textured {
+	background: url("../images/default/body-bg-textured.jpg") repeat-y 50% 50%;
+}
+
+.textured .bottom-wgt-area {
+	background: url("../images/default/texture.jpg");
+}
+
+.color {
+	color: #28ca74;
+}
+
+a,a:visited {
+	color: #28ca74;
+}
+
+a:focus,a:active,a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+#navigation li a:hover, #navigation li.current_page_item a, #navigation li.current_page_parent a, #navigation li.current-menu-ancestor > a   {
+	color: #28ca74;
+}
+
+.portfolio-nav li a:hover, .portfolio-nav li a.selected {
+	color: #28ca74;
+	border-color: #333;
+} 
+
+.widget a:hover,.widget a:focus,.widget a:active {
+	color: #28ca74;
+}
+
+.widget .hireme, .widget .hireme:visited {
+	color: #28ca74;
+}
+
+.widget .hireme:hover {
+	color: #333;
+}
+
+.widget_calendar a, .widget_calendar a:visited {
+	color: #28ca74;
+}
+
+.entry h1 a:hover {
+	color: #28ca74;
+}
+
+.sld-nav li.activeSlide a {
+	border-color: #28ca74;
+}
+
+.post-form input[type=submit] { 
+	color: #28ca74;
+}
+
+.btn-reply {
+	color: #28ca74;
+}
+
+#footer {
+	background: #414141;
+	color: #b1b1b1;
+	border-bottom: 5px solid #28ca74;
+}
